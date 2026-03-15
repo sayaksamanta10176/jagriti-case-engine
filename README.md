@@ -121,6 +121,10 @@ Example
 
 GET /api/v1/cases?limit=10&offset=0
 
+Curl request
+
+curl --location 'http://127.0.0.1:8000/api/v1/cases?limit=10&offset=10'
+
 ### 2. Get Case By Case Number
 
 Retrieve details for a specific case.
@@ -133,6 +137,10 @@ Example
 
 GET /api/v1/cases/case_no/NC/RP/117/2026
 
+Curl request
+
+curl --location 'http://127.0.0.1:8000/api/v1/cases/case_no/NC/RP/117/2026'
+
 ### 3. Search Cases
 
 Search cases by complainant or respondent name.
@@ -144,6 +152,10 @@ GET /api/v1/cases/search
 Example
 
 GET /api/v1/cases/search?query=LIPIMITA
+
+Curl request
+
+curl --location 'http://127.0.0.1:8000/api/v1/cases/case_no/NC/RP/117/2026'curl --location 'http://127.0.0.1:8000/api/v1/cases/search?q=LIPIMITA'
 
 ---
 
